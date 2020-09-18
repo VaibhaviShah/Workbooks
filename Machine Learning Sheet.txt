@@ -1,0 +1,64 @@
+1. Give short description each of Linear, RBF, Polynomial kernels used in SVM.
+Ans: Kernels in SVM use a set of mathematical functions which take data as input and transform it into the required form. 
+
+Linear: it is defined by the dot product of two vectors. 
+RBF: Radial Basis Function - used when there is no knowledge about the data.  Radial Basis Function kernel can be seen as a transformer/processor to generate new features by measuring the distance between all other dots to a specific dot/dots — centers. 
+Polynomial: Think of the polynomial kernel as a processor to generate new features by applying the polynomial combination of all the existing features.
+
+2. R-squared or Residual Sum of Squares (RSS) which one of these two is a better measure of goodness of fit of model in regression and why??
+Ans: R-squared calculates the amount of variance of the target variable explained by the model, i.e. function of the independent variable. R-squared does not inform if the regression model has an adequate fit or not.  
+The residual sum of squares measures the amount of error remaining between the regression function and the data set. A smaller residual sum of squares figure represents a regression function. Residual sum of squares–also known as the sum of squared residuals–essentially determines how well a regression model explains or represents the data in the model.
+
+3. What are TSS (Total Sum of Squares), ESS (Explained Sum of Squares) and RSS (Residual Sum of Squares) in regression. Also mention the equation relating these three metrics with each other.
+Ans: 
+TSS:The Total SS (TSS) tells us how much variation there is in the dependent variable.
+ESS:  The Explained SS tells us how much of the variation in the dependent variable your model explained.
+RSS: The residual sum of squares measures the amount of error remaining between the regression function and the data set. 
+
+4. What is Gini –impurity index?
+Ans: Gini index or Gini impurity measures the degree or probability of a particular variable being wrongly classified when it is randomly chosen. If all the elements belong to a single class, then it can be called pure. The degree of Gini index varies between 0 and 1, where 0 denotes that all elements belong to a certain class or if there exists only one class, and 1 denotes that the elements are randomly distributed across various classes. A Gini Index of 0.5 denotes equally distributed elements into some classes.
+
+5. Are unregularized decision-trees prone to overfitting? If yes, why?
+Ans: Yes, un-regularized decision is prone to over-fitting as it tries to fit all samples in the training dataset.
+This results in branches with strict rules or sparse data and affects the accuracy when predicting samples that are'nt part of the training set.
+
+6. What is an ensemble technique in machine learning?
+Ans: Ensemble is a group of models that are used together for prediction (both in Classification and Regression).  
+Ensemble learning elps improve ML results because it combines several models.By doing so it allows a better predictive performance compared to a single model.
+They are superior to individual ,odels as they reduce variance; avg. out biases and have lesser chances of over fitting.
+
+7. What is the difference between Bagging and Boosting techniques?
+Ans: Bagging : We apply arbitrary sampling and we divide the dataset into 'N'; after that we build a model by employing a single training algorithm. following which we combine the final predictions by polling. It helps increase the efficiency of the model by decreasing the variance to eschew overfitting. 
+
+Boosting: the algorithm tries to reiew and correct the inadmissible predictions at the initial iteration. After that, the algorithms seque0nce of iterations for correction and continuous until we get the desired prediction. It assists in reducing bias and variance, both for making the weak learners strong. 
+
+8. what is out-of-bag error in random forests?
+Ans: Out-of-bag error  is a method of measuring the prediction error of random forests, utilizing bootstrap bagging to sub-sample data samples used for training. OOB is the mean prediction error on each training sample x, using only the trees that did not have x in their bootstrap sample.
+
+Subsampling allows one to define an out-of-bag estimate of the prediction performance improvement by evaluating predictions on those observations which were not used in the building of the next base learner.
+
+
+9. What is K-fold cross-validation?
+Ans: k-fold Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample.
+
+The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. When a specific value for k is chosen, it may be used in place of k in the reference to the model, such as k=10 becoming 10-fold cross-validation.
+
+10. What is hyper parameter tuning in machine learning and why it is done?
+Ans: Hyperparamters are external to the model - whose values cannot be estimated from data. They are used ro estimate model parameters as choices of parameters is sensitive to the model implementation. 
+
+11. What issues can occur if we have a large learning rate in Gradient Descent?
+Ans: When the learning rate is too large, gradient descent can increase rather than decrease the training error
+
+12. What is bias-variance trade off in machine learning?
+Ans: Bias is the simplifying assumptions made by the model to make the target function easier to approximate. Variance is the amount that the estimate of the target function will change given different training data. Trade-off is tension between the error introduced by the bias and the variance
+
+13. What is the need of regularization in machine learning?
+Ans: Regularization is a form of regression, that punishes the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting
+
+14. Differentiate between Adaboost and Gradient Boosting
+Ans: In Adaboost, ‘shortcomings’ are identified by high-weight data points.
+In Gradient Boosting, ‘shortcomings’ (of existing weak learners) are identified by gradients.
+Adaboost is more about ‘voting weights’ and Gradient boosting is more about ‘adding gradient optimization’. 
+
+15. Can we use Logistic Regression for classification of Non-Linear Data? If not, why?
+Ans: No. We cannot use Logistic regression for classification of NonLinear Data. Logistic regression is linear in the sense that the predictions can be written in terms of a linear function of x,
