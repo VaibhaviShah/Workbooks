@@ -1,0 +1,82 @@
+Statistics– WORKSHEET 6
+
+Q1 to Q9 have only one correct answer. Choose the correct option to answer your question.
+
+1. Which of the following is the correct formula for total variation?
+a) Total Variation = Residual Variation – Regression Variation
+b) Total Variation = Residual Variation + Regression Variation
+c) Total Variation = Residual Variation * Regression Variation
+d) All of the mentioned
+Ans: (b)
+
+2. Collection of exchangeable binary outcomes for the same covariate data are called outcomes.
+a) random
+b) direct
+c) binomial
+d) none of the mentioned
+Ans: (c)
+
+3. How many outcomes are possible with bernoulli trial?
+a) 2
+b) 3
+c) 4
+d) None of the mentioned
+Ans: (a)
+
+4. If Ho is true and we reject it, then it is called:
+(a) Type-I error
+(b) Type-II error
+(c) Standard error
+(d) Sampling error
+Ans: (a)
+
+5. Level of significance is also called:
+(a) Power of the test
+(b) Size of the test
+(c) Level of confidence
+(d) Confidence coefficient
+Ans: (c)
+
+6. The chance of rejecting a true hypothesis decreases when sample size: 
+(a) Decreases
+(b) Increases
+(c) Both of them (d) None of them
+Ans:  (a)
+
+7. Which of the following testing is concerned with making decisions using data?
+(a) Probability
+(b) Hypothesis
+(c) Causal
+(d) None of the mentioned
+Ans: (b)
+
+8. What is the purpose of multiple testing in statistical inference?
+(a) Minimize errors
+(b) Minimize false positives
+(c) Minimize false negatives
+(d) All of the mentioned
+Ans: (d)
+
+9. Normalized data is centered at and has unit equal to standard deviations of the original data.
+(a) 0 (b) 5
+(c) 1 (d) 10
+Ans: (a)
+
+Q10and Q15 are subjective answer type questions, Answer them in your own words briefly.
+10. What Is Bayes' Theorem?
+Ans: The Bayes theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+
+11. What is z-score?
+Ans: Z-Score is also known as a standard score gives an idea of how far from the mean a data point is.
+
+12. What is t-test?
+Ans: A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related in certain features. 
+
+13. What is a percentile?
+Ans: A percentile is a term used in statistics to express how a score compares to other scores in the same set.
+
+14. What is ANOVA?
+Ans: ANOVA is analysis of Variance.  An ANOVA test is a way to find out if survey or experiment results are significant. 
+
+15. How can ANOVA help?
+Ans: It helps you to figure out if you need to reject the null hypothesis or accept the alternate hypothesis.
